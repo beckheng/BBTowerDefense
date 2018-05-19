@@ -1,0 +1,30 @@
+syntax = "proto2";
+
+// 仅仅是用于加载数据用的
+message MessagesMsgConfig
+{
+	optional int32 msg_id = 1; // 字段备注
+	optional string msg_text = 2; // 
+}
+
+// 英文文本
+message MessagesMsgENConfig
+{
+	optional int32 msg_id = 1; // 字段备注
+	optional string msg_text = 2; // 
+}
+
+// 繁体文本
+message MessagesMsgTCConfig
+{
+	optional int32 msg_id = 1; // 字段备注
+	optional string msg_text = 2; // 
+}
+
+// 简体文本
+message MessagesMsgSCConfig
+{
+	optional int32 msg_id = 1; // 字段备注
+	optional string msg_text = 2; // 
+}
+

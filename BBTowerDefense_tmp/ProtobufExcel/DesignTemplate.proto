@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+// 首行为此配置表的描述说明
+message DesignTemplateRoleInfoConfig
+{
+	optional int32 role_id = 1; // 字段备注
+	optional string role_name = 3; // 
+	optional int32 role_type = 4; // 1:物攻 2:物防
+	optional string role_story = 5; // 
+	repeated int32 init_item = 6; // 初始化物品 数组
+}
+

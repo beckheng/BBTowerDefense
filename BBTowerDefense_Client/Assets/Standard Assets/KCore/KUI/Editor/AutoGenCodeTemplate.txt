@@ -1,0 +1,24 @@
+using UnityEngine.UI;
+
+using KCore;
+using KScene;
+using KData;
+
+namespace KView
+{
+	public sealed partial class __CLASSNAME__ : KUIWindow
+	{
+		/// Params Define
+__PARAMS_DECLARED__
+		
+		/// <summary>
+		/// 在Awake时调用,先于BindEvent调用
+		/// </summary>
+		protected override void InitializeComponent()
+		{
+		
+			///Params Assignment
+__PARAMS_ASSIGNMENT__
+		}
+	}
+}
