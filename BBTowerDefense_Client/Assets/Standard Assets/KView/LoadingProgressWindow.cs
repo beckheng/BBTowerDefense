@@ -9,7 +9,7 @@ namespace KView
 {
 
 	[DisallowMultipleComponent]
-	public partial class MainWindow : KUIWindow
+	public partial class LoadingProgressWindow : KUIWindow
 	{
 		
 		/// <summary>
@@ -17,15 +17,9 @@ namespace KView
 		/// </summary>
 		protected override void BindEvent()
 		{
-			startGameButton.AddClickListener(() => { Debug.Log("ooo"); });
-			aboutUSButton.AddClickListener(xx);
+			
 		}
-
-		private void xx()
-		{
-			Debug.Log("about us");
-		}
-
+		
 		protected override bool OnClosing()
 		{
 			return true;
@@ -36,7 +30,6 @@ namespace KView
 		/// </summary>
 		protected override void SetData(object data)
 		{
-			
 		}
 		
 		

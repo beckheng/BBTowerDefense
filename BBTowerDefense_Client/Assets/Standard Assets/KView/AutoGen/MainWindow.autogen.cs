@@ -15,6 +15,16 @@ namespace KView
 		/// </summary>
 		private Image bgImage;
 
+		/// <summary>
+		/// 
+		/// </summary>
+		private Button startGameButton;
+
+		/// <summary>
+		/// 
+		/// </summary>
+		private Button aboutUSButton;
+
 		
 		/// <summary>
 		/// 在Awake时调用,先于BindEvent调用
@@ -24,6 +34,8 @@ namespace KView
 		
 			///Params Assignment
 			bgImage = tran.GetComponentByName<Image>("BgImage");
+			startGameButton = tran.GetComponentByName<Button>("StartGameButton");
+			aboutUSButton = tran.GetComponentByName<Button>("AboutUSButton");
 
 		}
 	}
